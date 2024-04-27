@@ -5,4 +5,4 @@ $(TARGET):  $(SRC)
   gcc $(SRC) -o $(TARGET)
 
 test:
-  
+  ./main
