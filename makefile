@@ -2,7 +2,7 @@ TARGET = main
 SRC = main.c
 
 $(TARGET):  $(SRC)
-  gcc $(SRC) -o $(TARGET)
+	gcc $(SRC) -o $(TARGET)
 
 test:
-  ./main
+	./main
