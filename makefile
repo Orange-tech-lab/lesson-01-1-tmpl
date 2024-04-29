@@ -1,8 +1,8 @@
 TARGET = main
 SRC = main.c
 
-$(TARGET):  $(SRC)
+$(TARGET):	$(SRC)
 	gcc $(SRC) -o $(TARGET)
 
-test:
+test:	$(TARGET)
 	./main
